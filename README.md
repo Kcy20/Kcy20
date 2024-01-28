@@ -3,13 +3,16 @@
 
 ### Why?
 ```TypeScript
-- The older I get the worse my memory has become, or not enough sleep.
+- Not enough sleep or my memory is fading. This helps me keep track!
 ```
 
 ### Python | Pandas
 ```Python
 df = pd.read_csv('<path/to/list')
 print(df.head(5))
+## https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#timeseries-offset-aliases
+current_time = pd.Timestamp.now(tz='US/Central').floor('s')
+alert_time = pd.Timestamp.now(tz='US/Central') - pd.Timedelta('10 hours')
 ```
 
 ### Unix | Shell Bash | 
@@ -19,7 +22,14 @@ print(df.head(5))
 
 ### DevOps | Terraform | Ansible 
 ```TypeScript
-
+terraform init
+terraform fmt
+terraform validate
+terraform plan -out=terraform.plan
+terraform apply terraform.plan
+terraform show
+terraform state list
+terraform destory
 ```
 
 ### SQL 
