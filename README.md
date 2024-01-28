@@ -1,16 +1,31 @@
-### Hi there 👋
+## Repo to jog my memory
+<img src="https://image.ibb.co/bEF0B7/doggy.gif" alt="doggy" border="0">
 
-<!--
-**Kcy20/Kcy20** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Why?
+```TypeScript
+- The older I get the worse my memory has become, or not enough sleep.
+```
 
-Here are some ideas to get you started:
+### Python | Pandas
+```Python
+df = pd.read_csv('<path/to/list')
+print(df.head(5))
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Unix | Shell Bash | 
+```Shell
+
+```
+
+### DevOps | Terraform | Ansible 
+```TypeScript
+
+```
+
+### SQL 
+```
+```
+
+### Splunk SPL
+```
+```
