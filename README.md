@@ -13,6 +13,8 @@ print(df.head(5))
 ## https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#timeseries-offset-aliases
 current_time = pd.Timestamp.now(tz='US/Central').floor('s')
 alert_time = pd.Timestamp.now(tz='US/Central') - pd.Timedelta('10 hours')
+df['foo'] = df.apply(lambda row: row['f'] + row['o'] + row['o'], axis=1)
+df.drop(["f", "o", "o"], axis=1, inplace=True) # drop columns
 ```
 
 ### Unix | Shell Bash | 
