@@ -7,10 +7,10 @@
 ```
 
 ### Projects that are WIP
-'''TypeScript
+```TypeScript
 - Working on a Python|Flask|MongoDB project that usings the nba_api package to pull season data from the current season (https://pypi.org/project/nba_api/)
 - Goal is to display stat data (graphs, plots, tables) in a way that helps sports prop bettors look at the full picture of any players stats
-'''
+```
 
 ### Python | Pandas
 ```Python
