@@ -6,10 +6,16 @@
 - Not enough sleep or my memory is fading. This helps me keep track!
 ```
 
+### Projects that are WIP
+'''TypeScript
+- Working on a Python|Flask|MongoDB project that usings the nba_api package to pull season data from the current season (https://pypi.org/project/nba_api/)
+- Goal is to display stat data (graphs, plots, tables) in a way that helps sports prop bettors look at the full picture of any players stats
+'''
+
 ### Python | Pandas
 ```Python
 df = pd.read_csv('<path/to/list')
-print(df.head(5))
+print('\nData looks like this:\n', df.head(5))
 ## https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#timeseries-offset-aliases
 current_time = pd.Timestamp.now(tz='US/Central').floor('s')
 alert_time = pd.Timestamp.now(tz='US/Central') - pd.Timedelta('10 hours')
@@ -51,10 +57,7 @@ terraform state list
 terraform destory
 ```
 
-### SQL 
-```
-```
-
 ### Splunk SPL
-```
+```TypeScript
+| tstats count where index=* sourcetype=* by _time span=1h index | timechart span=1h sum(count) by index limit=0 usenull=false
 ```
