@@ -8,7 +8,7 @@
 
 ### Projects that are WIP
 ```TypeScript
-- Working on a Python|Flask|MongoDB project that usings the nba_api package 
+- Working on a Python|Flask|MongoDB project that uses the nba_api package 
     - Which will be filtered to pull season data from the current season (https://pypi.org/project/nba_api/)
 - Goal is to display stat data (graphs, plots, tables) 
     - In a way that helps sports prop bettors or enthusiasts look at the full picture of any players stats
