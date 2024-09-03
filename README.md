@@ -3,6 +3,7 @@
 
 ## Testing new React App
 https://sportstuner.netlify.app/
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/886a9954-a198-4579-ba2f-5a3fe423b30a/deploy-status)](https://app.netlify.com/sites/sportstuner/deploys)
 
 ### Why?
