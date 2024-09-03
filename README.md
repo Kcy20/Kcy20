@@ -1,9 +1,13 @@
 ## Repo to jog my memory
 <img src="https://image.ibb.co/bEF0B7/doggy.gif" alt="doggy" border="0">
 
+## Testing new React App
+https://sportstuner.netlify.app/
+[![Netlify Status](https://api.netlify.com/api/v1/badges/886a9954-a198-4579-ba2f-5a3fe423b30a/deploy-status)](https://app.netlify.com/sites/sportstuner/deploys)
+
 ### Why?
 ```TypeScript
-- Not enough sleep or my memory is fading. This helps me keep track!
+- This helps me keep track!
 ```
 
 ### Projects that are WIP
